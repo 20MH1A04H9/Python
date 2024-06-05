@@ -1,0 +1,65 @@
+In general, the Python standard library includes many built-in functions that are available to use in your code without needing to import any additional modules. Some common examples of built-in functions include:
+
+abs()    :   Returns the absolute value of a number.
+
+ all()      :   Returns True if all elements of an iterable are True, and False otherwise.
+
+ any()    :   Returns True if any element of an iterable is True, and False otherwise.
+
+bin()     :   Converts an integer to a binary string.
+
+ bool()   :   Converts a value to a Boolean.
+
+chr()     :   Returns the string representation of a Unicode character.
+
+ dir()      :   Returns a list of attributes and methods for an object.
+
+enumerate(): Returns an enumerate object, which contains a sequence of tuples containing the index and value of each element of an iterable.
+
+filter()   :  Returns an iterator for elements of an iterable for which a condition is True.
+
+ float()   :  Converts a value to a floating-point number.
+
+format(): Formats a string using format specifiers.
+
+ hash()    : Returns the hash value of an object.
+
+int()        : Converts a value to an integer.
+
+ isinstance(): Returns True if an object is an instance of a given type, and False otherwise.
+
+ len()        :   Returns the length of an object.
+
+ list()         :   Converts an iterable to a list.
+
+ map()      :   Returns an iterator that applies a function to each element of an iterable.
+
+ max()      :   Returns the maximum value of an iterable.
+
+ min()       :   Returns the minimum value of an iterable.
+
+ next()      :   Returns the next element of an iterator.
+
+ open()     :   Opens a file and returns a file object.
+
+ ord()        :   Returns the Unicode code point for a character.
+
+ print()      :   Prints a message to the standard output.
+
+ range()    :   Returns a sequence of numbers.
+
+ repr()       :   Returns a string representation of an object.
+
+ round()    :   Rounds a number to a specified number of decimal places.
+
+ set()          :   Creates a set object.
+
+sorted()    :   Returns a sorted list from an iterable.
+
+ str()           :   Converts a value to a string.
+
+ sum()        :   Returns the sum of elements in an iterable.
+
+ type()        :   Returns the type of an object.
+
+ zip()           :   Returns an iterator that combines elements from multiple iterables.
