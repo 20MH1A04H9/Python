@@ -1,0 +1,31 @@
+import requests
+import json
+
+# Function to get information from Telegram username
+def get_telegram_info(username):
+    url = 'https://t.me/{}'.format(username)
+    r = requests.get(url)
+    if r.status_code == 200:
+        data = r.json()
+        return data
+    else:
+        return None
+
+# Main function
+def main():
+    # Ask for username
+    username = input('Enter Telegram username: ')
+    # Get data
+    data = get_telegram_info(username)
+    # Print data
+    if data:
+        print('Username: {}'.format(data['username']))
+        print('Name: {}'.format(data['name']))
+        print('Bio: {}'.format(data['bio']))
+        print('Location: {}'.format(data['location']))
+        print('Website: {}'.format(data['website']))
+    else:
+        print('Username not found.')
+
+if name == 'main':
+    main()
